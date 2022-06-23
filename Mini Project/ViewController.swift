@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBOutlet weak var Label1: UILabel!
+    
+    @IBAction func Button(_ sender: Any) {
+        var FactsAboutMe = ["My Favorite Color is Teal", "I Have a Pet Gecko", "I Don't Like Dogs"]
+Label1.text = (FactsAboutMe[0])
 
+               
+    }
+            
 }
-
